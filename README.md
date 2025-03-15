@@ -3,7 +3,7 @@
 
 ## Introduction
 
-A results-driven and adaptable IT professional with extensive experience in IT operations, infrastructure support, and cloud administration. Proficient in Microsoft 365, Azure, Intune, SCCM, virtualization, and security tools like Microsoft Sentinel and Splunk. Skilled in network administration, PowerShell scripting, automation, and ITIL-based service management. Experienced in on-premise and cloud infrastructure, including IaaS, PaaS, and SaaS. Committed to continuous learning and leveraging technology to drive operational excellence.
+A highly motivated and adaptable IT professional with extensive experience in IT operations, helpdesk support, infrastructure management, network administration, and cloud technologies. Proficient in Microsoft 365, Microsoft Azure, Intune, virtualization, and security tools like Microsoft Sentinel and Splunk. Adept at network administration, PowerShell scripting, automation, and ITIL-based service management, with hands-on expertise in both on-premise and cloud infrastructure (IaaS, PaaS, SaaS). Passionate about cybersecurity and eager to transition into the cybersecurity domain, leveraging my technical expertise to strengthen security operations and threat management. Committed to continuous learning, optimizing IT environments, and driving operational excellence.
 
 ## Objective
 
