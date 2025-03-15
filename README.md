@@ -21,9 +21,6 @@ With a strong foundation in computer science, I have developed a keen interest i
 | Case Management with TheHive                  | SOC Automation Lab|
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
-## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
-
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-SolarWinds-F7931E?&style=for-the-badge&logo=SolarWinds&logoColor=white" />
