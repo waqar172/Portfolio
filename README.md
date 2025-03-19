@@ -36,6 +36,12 @@ With a strong foundation in computer science, I have developed a keen interest i
     <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
 </div>
 
+### Cloud
+<div>
+   <img src="https://img.shields.io/badge/-Microsoft_Azure-0078D4?&style=for-the-badge&logo=Microsoft%20Azure&logoColor=white" />
+   <img src="https://img.shields.io/badge/-Google_Cloud-4285F4?&style=for-the-badge&logo=Google%20Cloud&logoColor=white" />
+</div>
+
 ### SIEM
 <div>
     <img src="https://img.shields.io/badge/-Alert_Logic-FF5F00?&style=for-the-badge&logo=Alert-Logic&logoColor=white" />
