@@ -10,7 +10,6 @@ A highly motivated and adaptable IT professional with extensive experience in IT
 With a strong foundation in computer science, I have developed a keen interest in cybersecurity and am now eager to transition into the field. My goal is to contribute my skills and knowledge in a Security Operations Center (SOC) as a Tier 1 Analyst, where I can actively monitor, analyze, and respond to security threats while continuously growing in the cybersecurity domain.
 
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
