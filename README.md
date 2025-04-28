@@ -66,8 +66,8 @@ With a strong foundation in computer science, I have developed a keen interest i
 </div>
 
 ## Projects
-•	Setup a virtual home lab with Windows and Kali Linux machines
-•	SOC Analyst Simulation (TryHackMe)
-•	Network Traffic Monitoring and Attack Detection in Wireshark
-•	SIEM Implementation and Log Analysis using Splunk
-•	Developed Python scripts to automate simple cybersecurity tasks
+•	Setup a virtual home lab with Windows and Kali Linux machines <br>
+•	SOC Analyst Simulation (TryHackMe) <br>
+•	Network Traffic Monitoring and Attack Detection in Wireshark <br>
+•	SIEM Implementation and Log Analysis using Splunk <br>
+•	Developed Python scripts to automate simple cybersecurity tasks <br>
