@@ -41,7 +41,7 @@ With a strong foundation in computer science, I have developed a keen interest i
 
 ### Vulnerability
 <div>
-    <img src="https://img.shields.io/badge/-Nexus%20Vulnerability%20Scanner-4E8CB5?&style=for-the-badge&logo=Sonatype&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Nexus?&style=for-the-badge&logo=Sonatype&logoColor=white" />
     <img src="https://img.shields.io/badge/-OpenVAS-00B140?&style=for-the-badge&logo=OpenVAS&logoColor=white" />
 </div>
 
