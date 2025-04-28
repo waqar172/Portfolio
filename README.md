@@ -25,7 +25,6 @@ With a strong foundation in computer science, I have developed a keen interest i
     <img src="https://img.shields.io/badge/-SolarWinds-F7931E?&style=for-the-badge&logo=SolarWinds&logoColor=white" />
     <img src="https://img.shields.io/badge/-Nmap-00457C?&style=for-the-badge&logo=Nmap&logoColor=white" />
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" /> 
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
 </div>
 
 ### IPS/IDS
@@ -67,5 +66,8 @@ With a strong foundation in computer science, I have developed a keen interest i
 </div>
 
 ## Projects
-- Detection Lab
-- SOC Automation Project
+•	Setup a virtual home lab with Windows and Kali Linux machines
+•	SOC Analyst Simulation (TryHackMe)
+•	Network Traffic Monitoring and Attack Detection in Wireshark
+•	SIEM Implementation and Log Analysis using Splunk
+•	Developed Python scripts to automate simple cybersecurity tasks
