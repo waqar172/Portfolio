@@ -64,7 +64,8 @@ With a strong foundation in computer science, I have developed a keen interest i
 <div>
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Cybersecurity-4285F4?&style=for-the-badge&logo=Google&logoColor=white" />
-<img src="https://img.shields.io/badge/-Operating%20Systems%3A%20Overview%2C%20Administration%2C%20Security-054ADA?&style=for-the-badge&logo=IBM&logoColor=white" />    
+<img src="https://img.shields.io/badge/-Operating%20Systems-054ADA?&style=for-the-badge&logo=IBM&logoColor=white" />
+    
 </div>
 
 ## Projects
