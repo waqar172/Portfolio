@@ -40,6 +40,12 @@ With a strong foundation in computer science, I have developed a keen interest i
     <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
 </div>
 
+### Vulnerability
+<div>
+    <img src="https://img.shields.io/badge/-Nessus-005AA7?&style=for-the-badge&logo=Tenable&logoColor=white" />
+    <img src="https://img.shields.io/badge/-OpenVAS-00B140?&style=for-the-badge&logo=OpenVAS&logoColor=white" />
+</div>
+
 ### Cloud
 <div>
    <img src="https://img.shields.io/badge/-Microsoft_Azure-0078D4?&style=for-the-badge&logo=Microsoft%20Azure&logoColor=white" />
