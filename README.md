@@ -57,7 +57,6 @@ With a strong foundation in computer science, I have developed a keen interest i
     <img src="https://img.shields.io/badge/-Wazuh-EE1C25?&style=for-the-badge&logo=Wazuh&logoColor=white" />
     <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
 </div>
 
 ## Certifications
