@@ -68,6 +68,12 @@ With a strong foundation in computer science, I have developed a keen interest i
 <img src="https://img.shields.io/badge/-Phishing%20Simulations%20by%20Mastercard-EB001B?&style=for-the-badge&logo=Mastercard&logoColor=white" />
 </div>
 
+## Scripting & Query Languages
+<div>
+PowerShell <br>
+Python <br>
+</div>
+
 ## Projects
 •	Setup a virtual home lab with Windows and Kali Linux machines <br>
 •	SOC Analyst Simulation (TryHackMe) <br>
