@@ -65,8 +65,7 @@ With a strong foundation in computer science, I have developed a keen interest i
 <img src="https://img.shields.io/badge/-Cybersecurity-4285F4?&style=for-the-badge&logo=Google&logoColor=white" />
 <img src="https://img.shields.io/badge/-Introduction%20to%20Cybersecurity%20Tools%20&%20Cyberattacks-054ADA?&style=for-the-badge&logo=IBM&logoColor=white" />
 <img src="https://img.shields.io/badge/-Operating%20Systems%3A%20Overview%2C%20Administration%2C%20and%20Security-054ADA?&style=for-the-badge&logo=IBM&logoColor=white" />
-<img src="https://img.shields.io/badge/-Phishing%20Simulations%20by%20Forage-4C9D5F?&style=for-the-badge&logo=Google&logoColor=white" />
-
+<img src="https://img.shields.io/badge/-Phishing%20Simulations%20by%20Mastercard-EB001B?&style=for-the-badge&logo=Mastercard&logoColor=white" />
 </div>
 
 ## Projects
