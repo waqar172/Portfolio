@@ -74,7 +74,7 @@ With a strong foundation in computer science, I have developed a keen interest i
 </div>
 
 ## Projects
-•	<a href="https://github.com/waqar172/Portfolio/blob/master/SIEM%20Lab"></a><br>
+•	<a href="https://github.com/waqar172/Portfolio/blob/master/SIEM%20Lab">SIEM Lab</a><br>
 •	SOC Analyst Simulation (TryHackMe) <br>
 •	Network Traffic Monitoring and Attack Detection in Wireshark <br>
 •	SIEM Implementation and Log Analysis using Splunk <br>
