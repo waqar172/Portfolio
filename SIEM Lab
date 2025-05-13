@@ -24,7 +24,7 @@ Nmap Port Scan
 Objective: Identify open ports on the Windows target.
 Command: nmap -sS -T4 -Pn <target-ip>
 Result: Discovered open TCP port 3389 (RDP) indicating a potential remote access point.
-
+<a href="https://github.com/waqar172/Portfolio/blob/master/01.PNG?raw=true"></a>
 
 2. MSFvenom Payload Generation
 Objective: Create a malicious executable to simulate initial access.
