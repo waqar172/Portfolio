@@ -52,6 +52,7 @@ Objective: Deliver the malicious executable (Resume.pdf.exe) to the target Windo
 Command used to start the server: python3 -m http.server 9999
 Description:
 The screenshot displays the HTTP server’s web interface as seen from a browser, listing the malicious payload (Resume.pdf.exe) and confirming it is accessible for download by the Windows target.
+![image alt](https://github.com/waqar172/Portfolio/blob/a5ef6741f46824fddb30c88ba53411f5f909d237/05.PNG)
 
 6. Evidence of Reverse Shell Connection on Windows Target
 Objective: Confirm that the malicious payload (Resume.pdf.exe) executed successfully and established a reverse TCP connection from the Windows machine to the Kali Linux attacker's machine.
@@ -59,13 +60,14 @@ Screenshot 1: Established Connection via netstat
 Command Run: netstat -anob
 Description:
 This screenshot captures the Windows command prompt output showing an active TCP connection from the Windows machine to the Kali Linux attacker's IP on port 4444. The connection is linked to PID 3588, indicating the process responsible for the communication.
-<a href="https://github.com/waqar172/Portfolio/blob/master/00.PNG?raw=true"></a><br>
-<a href="https://github.com/waqar172/Portfolio/blob/master/00.PNG?raw=true"></a><br>
+![image alt](https://github.com/waqar172/Portfolio/blob/a5ef6741f46824fddb30c88ba53411f5f909d237/06.PNG)
+![image alt](https://github.com/waqar172/Portfolio/blob/a5ef6741f46824fddb30c88ba53411f5f909d237/07.PNG)
 
 Screenshot 2: Process Linked to Payload in Task Manager
 Description:
 This screenshot displays the Services tab in Task Manager, verifying that PID 3588 belongs to the malicious file Resume.pdf.exe. This confirms that the payload generated via MSFvenom is actively running and responsible for the established reverse shell connection.
-<a href="https://github.com/waqar172/Portfolio/blob/master/00.PNG?raw=true"></a><br>
+![image alt](https://github.com/waqar172/Portfolio/blob/a5ef6741f46824fddb30c88ba53411f5f909d237/08.PNG)
+![image alt](https://github.com/waqar172/Portfolio/blob/a5ef6741f46824fddb30c88ba53411f5f909d237/09.PNG)
 
 7. Meterpreter Session Established from Kali Linux
 Objective: Confirm that the Metasploit handler successfully received a reverse TCP connection from the Windows target.
@@ -73,6 +75,7 @@ Screenshot 1: Metasploit Reverse Shell Connection
 Description:
 This screenshot captures the Metasploit console after executing the exploit command. The terminal output shows that the handler began listening on the specified local port and successfully received a reverse TCP connection, initiating Meterpreter session 4. The connection is from the Windows target IP back to the Kali Linux attack machine.
 Screenshot
+![image alt](https://github.com/waqar172/Portfolio/blob/a5ef6741f46824fddb30c88ba53411f5f909d237/10.PNG)
 
 8. Post-Exploitation Commands Executed via Meterpreter
 Objective: Simulate initial attacker enumeration activities following successful compromise.
@@ -83,4 +86,5 @@ net user – Lists user accounts on the system.
 net localgroup – Displays local user groups.
 ipconfig – Shows network interface configurations and IP address assignments.
 Screenshot
+
 
